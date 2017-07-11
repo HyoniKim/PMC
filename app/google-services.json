@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "494992385417",
+    "firebase_url": "https://tacademyfirebase.firebaseio.com",
+    "project_id": "tacademyfirebase",
+    "storage_bucket": "tacademyfirebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:494992385417:android:d95d84cec463eac1",
+        "android_client_info": {
+          "package_name": "com.example.gimjihyeon.fb_test1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "494992385417-5motcjoe3orrpp1bfj9uehton2t8ff6i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gimjihyeon.fb_test1",
+            "certificate_hash": "e5206633616f47f820537c572acbacf51510c3f0"
+          }
+        },
+        {
+          "client_id": "494992385417-tanutrsc8sgkhngvi1sj189ncf4hs9lh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAm3CEtMCwMeGggcXQr4Um_4ZCPnCIgxC0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "494992385417-tanutrsc8sgkhngvi1sj189ncf4hs9lh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

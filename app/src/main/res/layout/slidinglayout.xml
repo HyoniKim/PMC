@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.gimjihyeon.protectmycosmetic.SlidingPanelLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:sliding="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sliding_panel"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:orientation="vertical"
+    sliding:contentView="@+id/content_view"
+    sliding:panelView="@+id/header"
+    >
+
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/black"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="화장품리스트"
+            android:layout_marginLeft="100dp"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/content_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/darker_gray"></RelativeLayout>
+</com.example.gimjihyeon.protectmycosmetic.SlidingPanelLayout>
+

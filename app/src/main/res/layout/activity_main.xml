@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/btn_inputCosmetic"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="화장품 등록"
+        android:layout_weight="1"
+        android:onClick="InputCosmetic"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/btn_community"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+      android:layout_weight="1"
+        android:text="커뮤니티"
+        android:onClick="Community"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/btn_mypage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="마이 페이지"
+        android:onClick="MyPage"
+        android:layout_weight="1"
+        android:textSize="22sp" />
+
+</LinearLayout>

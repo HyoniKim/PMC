@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Protect My Cosmetics</string>
+    <string-array name="CosmeticGroup">
+        <item>skincare</item>
+        <item>face makeup</item>
+        <item>eye makeup</item>
+        <item>lip makeup</item>
+        <item>cleansing</item>
+
+    </string-array>
+
+    <string-array name="CosmeticBrandName">
+        <item>apieu</item>
+        <item>aritaum</item>
+        <item>beyond</item>
+        <item>clio</item>
+        <item>innisfree</item>
+        <item>lorealparis</item>
+        <item>mac</item>
+        <item>mamonde</item>
+        <item>missha</item>
+        <item>mamonde</item>
+        <item>tonymoly</item>
+    </string-array>
+</resources>
